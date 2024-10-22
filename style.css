@@ -121,28 +121,26 @@ canvas {
 
 
 .about {
-  background-image: linear-gradient(to bottom, #295854, rgb(192, 84, 84))!important;
+  background-image: linear-gradient(to bottom, #0d0d0dec, rgb(18, 30, 35))!important;
   min-width: 100vw;
   min-height: 100vh;
 }
 
 .education {
-  width: 100vw;
+  background-image: linear-gradient(to bottom,rgb(59, 27, 27) , rgb(32, 67, 80))!important;
+  min-width: 100vw;
   min-height: 100vh;
-  background-image: url('https://cdn.centraljersey.com/wp-content/uploads/sites/26/2016/02/nt-mar-high-11.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .work {
-  background-image: linear-gradient(to bottom, rgb(192, 84, 84), rgb(94, 43, 90))!important;
+  background-image: linear-gradient(to bottom, rgb(70, 68, 68), rgb(11, 24, 24))!important;
   width: 100vw;
   min-height: 100vh;
 
 }
 
 .interest {
-  background-image: linear-gradient(to bottom, #295854, rgb(91, 43, 100))!important;
+  background-image: linear-gradient(to bottom, rgb(11, 24, 24), rgb(42, 20, 45))!important;
   width: 100vw;
   min-height: 100vh;
   z-index:5;
@@ -150,7 +148,7 @@ canvas {
 }
 
 .contact {
-  background-image: linear-gradient(to bottom, rgb(192, 84, 84), rgb(0, 0, 0))!important;
+  background-image: linear-gradient(to bottom, rgb(32, 14, 14), rgb(0, 0, 0))!important;
   width: 100vw;
   min-height: 100vh;
 }
@@ -220,21 +218,23 @@ canvas {
 
 
 .containergallery {
-  width: 300px;
-  margin: 0 auto;
+  width: 100px;
+    animation: rotation 5s linear infinite;
+    image-rendering: auto;
+    transition: transform 0.5s;
 }
 
 .carousel {
   transform-style: preserve-3d;
   animation: rotation 5s linear infinite;
+    transition: transform 0.5s;
+
+
 }
 
 .carousel figure img {
-  position: absolute;
-  width: 100%;
   image-rendering: auto;
   transition: transform 0.5s;
-  
 }
 
 .carousel:hover figure img {
@@ -403,8 +403,8 @@ canvas {
   border: 7px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 0px 10px rgba(255, 255, 133, 0.8);
-  background-color:rgba(216, 64, 183, 0.8);
+  box-shadow: 0px 0px 10px rgba(184, 184, 85, 0.8);
+  background-color:rgba(255, 239, 115, 0.8);
   color:white;
 }
 
@@ -414,7 +414,7 @@ canvas {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
   box-shadow: 0px 0px 10px rgba(255, 255, 133, 0.8);
-  background-color:rgb(209, 54, 54);
+  background-color:rgba(216, 202, 130, 0.8);
   color:white;
 }
 

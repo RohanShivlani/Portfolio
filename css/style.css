@@ -3,8 +3,8 @@
 
 
 .glass {
-  filter: blur(0px);
-  backdrop-filter: blur(20px) brightness(1.2) saturate(1.5) hue-rotate(180deg);
+  filter: blur(px);
+  backdrop-filter: blur(20px) brightness(0.5) saturate(1.5) hue-rotate(20deg);
   border: 5px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
