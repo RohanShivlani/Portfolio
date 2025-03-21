@@ -1,4 +1,7 @@
 
+section {
+  scroll-margin-top: 70px; /* Adjust this value based on your navbar height */
+}
 
 
 
@@ -449,6 +452,8 @@ li::before {
   border-radius: 4px;
 }
 
+
+
 li:hover::before {
   width: 100%;
   animation: fillAnimation 0.3s forwards;
@@ -508,3 +513,5 @@ nav {
 .maxheight {
   max-height: 40px;
 }
+
+
